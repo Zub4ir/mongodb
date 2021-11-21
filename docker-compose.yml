@@ -18,16 +18,17 @@ services:
       - mongodb_data:/data/db
       - mongodb_config:/data/configdb
 
-  # mongo-express:
-  #   container_name: mongoexpress
-  #   image: mongo-express
-  #   restart: always
-  #   ports:
-  #     - 8081:8081
-  #   environment:
-  #     ME_CONFIG_MONGODB_ADMINUSERNAME: root
-  #     ME_CONFIG_MONGODB_ADMINPASSWORD: pis12345
-  #     ME_CONFIG_MONGODB_URL: mongodb://root:pis12345@mongo:27017/
+  # comment this container out
+  mongo-express:
+    container_name: mongoexpress
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: pis12345
+      ME_CONFIG_MONGODB_URL: mongodb://root:pis12345@mongo:27017/
 
 volumes:
   mongodb_data:
