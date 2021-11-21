@@ -1,6 +1,6 @@
 # MondoDB
 
-This is a single instance of MongoDB using Docker. The Docker-Compose project is based off the official Docker image docs https://hub.docker.com/_/mongo. I prefer creating docker-compose project to accomodate additional project containers.
+This is a single instance of MongoDB using Docker. The Docker-Compose project is based off the official Docker image docs https://hub.docker.com/_/mongo. I prefer creating a docker-compose project to accomodate additional project containers.
 
 ## To Run
 
