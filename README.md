@@ -11,4 +11,6 @@ If deployed locally, access on `localhost` via deafualt port 27017 user "root" w
 docker-compose up --build -d
 ```
 
-## The Setup
+## Project Setup Notes
+
+The project is created with a default `main` database. The `initialize.js` script illustrates adding some data on startup, creating users and validation schemas. I was going to use this database as a backup/logger of dKron jobs so the validation schema is incomplete.
