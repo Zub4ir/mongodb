@@ -65,5 +65,3 @@ db.createCollection("dkron_jobs", {
         }
     }
 });
-
-db.close();
