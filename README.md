@@ -17,4 +17,6 @@ The project is created with a default `main` database. The `initialize.js` scrip
 
 Additional notes in the notes.txt
 
+Great MongoDB intro [here](https://www.sitepoint.com/an-introduction-to-mongodb/).
+
 _***Please comment out the mongo-express container_
